@@ -27,5 +27,6 @@ setuptools.setup(
         "License :: OSI Approved :: GNU General Public License v3 (GPLv3)",
         "Operating System :: OS Independent",
     ],
+    package_data={'hrnet': ['nms/cpu_nms.pyx', 'nms/gpu_nms.cu', 'nms/gpu_nms.hpp', 'nms/gpu_nms.pyx', 'nms/nms_kernel.cu']},
 )
 
