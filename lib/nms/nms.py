@@ -10,10 +10,9 @@ from __future__ import print_function
 
 import numpy as np
 
-import pdb; pdb.set_trace()
-
-from .cpu_nms import cpu_nms
-from .gpu_nms import gpu_nms
+#nms installed as package for ease of packaging hrnet as a python module
+from cpu_nms import cpu_nms
+from gpu_nms import gpu_nms
 
 
 def py_nms_wrapper(thresh):
