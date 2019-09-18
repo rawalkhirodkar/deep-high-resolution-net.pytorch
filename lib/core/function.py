@@ -15,10 +15,10 @@ import os
 import numpy as np
 import torch
 
-from core.evaluate import accuracy
-from core.inference import get_final_preds
-from utils.transforms import flip_back
-from utils.vis import save_debug_images
+from hrnet.core.evaluate import accuracy
+from hrnet.core.inference import get_final_preds
+from hrnet.utils.transforms import flip_back
+from hrnet.utils.vis import save_debug_images
 
 
 logger = logging.getLogger(__name__)
